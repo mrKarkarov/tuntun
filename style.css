@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'TT Hoves';
+  color: #222;
+}
+
+section {
+    padding: 0 calc(10.6vw - 15.779px);
+    max-width: 1920px;
+    margin: 0 auto 160px;
+}
+
+.first-page{
+    position: relative;
+}
+#bg-image {
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    z-index: -1;
+    width: 395px;
+}
+@media (max-width: 1000px){
+
+   #bg-image {
+     width: 180px;
+   }
+}
+#logo {
+    margin-top: 35px;
+    width: 295px;
+    margin-bottom: 85px;
+}
+h1 {
+    font-family:"Chava";
+
+    font-size: calc(4.2vw + 26.254px);
+    line-height: 110%; /* 88px */
+    margin-bottom: 40px;
+}
+h2{
+    font-weight: 500px;
+    font-size: calc(2.7vw + 24.055px);
+    line-height: 117%;
+    text-transform: uppercase;
+}
+h3{
+    font-size: calc(1vw + 14.271px);
+    font-weight: 600;
+    line-height: 140%; /*37.8px */
+    text-transform: uppercase;
+}
+h5 {
+    font-size: calc(1vw + 14.271px);
+    font-weight: 600;
+    line-height: 140%; /*37.8px */
+    text-transform: uppercase; 
+}
+p {
+    font-size: calc(1vw + 14.271px);
+    font-weight: 300;
+    line-height: 140%; /* 37.8px */
+    
+}
+.course-data {
+    display: flex;
+    gap: calc(17.7vw - 66.298px);
+    margin-bottom: 75px;
+}
+@media (max-width:750px){
+    .course-data {
+        flex-direction: column;
+    }
+}
+.course-data__desc {
+    margin-bottom: 5px;
+}
+.course-date {
+    font-weight: bold;
+}
+.course-description {
+  margin-bottom: 30px;
+}
+.buttons-wrapper {
+    display: flex;
+    gap: 30px;
+}
+@media (max-width:850px){
+    .buttons-wrapper {
+        flex-direction: column;
+    }
+}
+button {
+    width: 328px;
+    border-radius: 12px;
+    background: white;
+    padding: 20px 0;
+    color:inherit;
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid #6E3ABA;
+}
+.primary-button {
+    width: 328px;
+    border-radius: 12px;
+    background: #6E3ABA;
+    padding: 20px 0;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+    border: 0; 
+}
+.student h2 {
+    margin-bottom: calc(5.5vw + 19.282px);
+}
+
+.duration-details {
+    display: flex;
+    gap: 120px;
+}
+.duration-item {
+    flex-basis: 50%;
+}
+.duration h2 {
+    margin-bottom: calc(7.7vw - 9px);
+}
+.duration-details {
+    margin-bottom: calc(2.4vw + 20.884px);
+}
+.duration-details:last-child {
+    margin-bottom: 0;
+}
+.duration-details h3{
+    margin-bottom: 20px;
+}
+.duration-details h5{
+    margin-bottom: 20px;
+}
+.duration-item img{
+    width: calc(4.5vw + 184.761px);
+}
+@media (max-width: 950px) {
+    .duration-details {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+.money h2 {
+    margin-bottom: calc(2.2vw + 11.713px);
+}
+.money p{
+    margin-bottom: calc(1.8vw + 13.37px)
+
+}
+.money img{
+    width: calc(81.4vw + 22.613px) ;
+}
+.box{
+    display: flex;
+}
+.gift h2 {
+    margin-bottom: calc(1.1vw + 15.856px) ;
+}
+.partner p {
+    margin-bottom: calc(0.6vw + 17.928px);
+    font-weight: 400;
+    line-height: 140%; /* 29.4px */     
+}
+.partner p:last-child {
+    margin-bottom: 0;
+}
+.partner p:first-child{
+    margin-top: calc(4.4vw + 3.425px);
+}
+@media (max-width: 950px){
+    .box {
+        flex-direction: column;
+    }
+} 
+/* SKIDKA ******************** */
+.lolo{
+    background-color: #6E3ABA;
+  padding: 85px 0;  
+}
+.skidka{
+    padding: 0;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+.lolo h2{
+    text-align: center;
+    color: var(--typo-white, #FFF);
+    font-size: calc(2vw + 26.541px);
+    font-weight: 700;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    /* padding-top: 80px; */
+    margin-bottom: 60px;
+}
+
+
+.skidka button{
+    display: block;
+margin: 0 auto;
+color: #6E3ABA;
+}
+.lolo h3{
+    color: #2F1D4E;
+font-family: Chava;
+font-size: calc(12.6vw + 12.762px);
+font-style: normal;
+font-weight: 400;
+line-height: 107.5%; /* 187.05px */
+}
+ .lolo p{
+    text-align: center;
+    font-size: calc(1.9vw + 2.956);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.info{
+    margin-bottom: 55px;
+}
+    /* SECTION DIPLOMA */
+.diplom{
+    display: grid;
+    grid-template-areas: "a b" 
+                         "a c";
+gap: 20px;
+                        }    
+.diplom img{
+grid-area: a;
+}
+.diplom h3{
+grid-area: b;
+font-size: 58px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 0.58px;
+}
+.diplom p{
+grid-area:c ;
+font-size: 27px;
+font-weight: 400;
+line-height: 140%; /* 37.8px */
+
+
+}
+
+
+
+
+
+
+
+/* SECTION FOOTER******************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
